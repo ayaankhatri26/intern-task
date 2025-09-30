@@ -1,0 +1,130 @@
+#nav1{
+    height:60px;
+    
+     box-shadow: 7px 4px 4px grey;
+     
+}
+#img1{
+    height: 40px;
+    width: 70px;
+}
+.hdr {
+     display: inline-block;
+}
+
+
+.lang-toggle{
+    display: flex;
+    border: 1px solid;
+    border-radius: 20px;
+    width: fit-content;
+    overflow: hidden;
+   position: relative;
+    display: inline-block;
+}
+
+.lang-btn {
+   padding: 8px 15px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.lang-btn.active{
+    background-color: yellow;
+    color: #333;
+}
+
+.lang-btn:not(.active) {
+    background-color: transparent;
+    color: #666;
+}
+
+
+.imp{
+    height: 700px;
+    width: 300px;
+border: 1px grey solid;
+border-radius: 10px;
+position: relative;
+top: -10px;
+
+
+}
+
+.h5{
+    position: relative;
+    height: 39px; 
+    width: 200px;
+    background-color:gold;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    z-index: 1;
+    padding-left: 5px;
+    display: inline-block;
+}
+.h6a{
+    height: 38px;
+    width: 296px;
+    background-color:whitesmoke;
+    border: 1px solid grey;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin: 2px;
+    padding: 2px;
+    padding-top: 15px;
+}
+.main{
+    height: 900px;
+    width: 900px;
+    border: 1px solid grey;
+    border-radius: 10px;
+  position: absolute;
+bottom: 0px;
+top: 150px;
+left: 350px; 
+padding: 20px;
+overflow: auto;
+flex-wrap:wrap;
+}
+
+.img2{
+    height: 200px;
+    width: 60%;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.daily{
+    height: 180px;
+    width: 100%;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blog{
+    text-align: center;
+}
+.blog p{
+    color: grey;
+}
+
+.cards{
+  
+    display: flex;
+    gap: 70px;
+    border: 1px solid white ;
+}
+.current1{
+    width: 80%;
+    height: 200px;
+    color: navy ;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px  5px grey;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+}
