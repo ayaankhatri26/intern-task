@@ -128,3 +128,36 @@ flex-wrap:wrap;
     position: relative;
     left: 100px;
 }
+
+.ftr{
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color:white;
+}
+
+.fdiv1{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+.fdiv2{
+    position: relative;
+    left: 220px;
+    top: 30px;
+}
+
+.fdiv3{
+    position: relative;
+    left: 320px;
+    top: 30px;
+}
+
+.fdiv4{
+    position: relative;
+    left: 420px;
+    top: 30px;
+}
